@@ -1,0 +1,157 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 959px;
+  }
+
+  /* Header Section */
+
+  .header-wrapper {
+    height: 122px;
+    flex-direction: row-reverse;
+  }
+
+  .header-wrapper__logo-wrapper {
+    position: absolute;
+    left: 50%;
+    margin-left: -2rem;
+  }
+
+  .logo-wrapper {
+    width: 4em;
+    height: 2.4em;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .burger-menu_disabled {
+    display: none;
+  }
+
+  /* Active Burger-menu */
+
+  .header {
+    position: absolute;
+    z-index: 1;
+    background-color: #000;
+    width: 100%;
+  }
+
+  .header .header-wrapper {
+    height: 316px;
+    padding: 2.4em 0 5.55em;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .header .header-wrapper__logo-wrapper path {
+    fill: #fff;
+  }
+
+  .header .burger-menu {
+    height: 2.4em;
+    justify-content: center;
+  }
+
+  .header .burger-menu::after,
+  .header .burger-menu::before {
+    display: none;
+  }
+
+  .header .burger-menu__line {
+    position: relative;
+    transition: transform 0.4s ease-out;
+    transform: rotate(45deg);
+    background-color: #fff;
+  }
+
+  .header .burger-menu__line::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(90deg);
+    background-color: #fff;
+  }
+
+  .header .header-wrapper__nav {
+    position: relative;
+    left: 50%;
+    margin-left: -9.55rem;
+  }
+
+  .header .nav {
+    display: block;
+    min-width: 424px;
+    align-self: flex-end;
+  }
+
+  .header .nav__item:not(:last-child) {
+    margin-right: 3.35rem;
+  }
+
+  .header .nav__link {
+    color: #fff;
+    font-size: 1.2em;
+  }
+
+  .header + .slider-section {
+    padding-top: 122px;
+  }
+
+  /* Slider Section */
+
+  .slider-section {
+    margin-bottom: 1.9rem;
+  }
+
+  .slider-section__slider {
+    margin-bottom: 1.2rem;
+  }
+
+  .slider {
+    height: 461px;
+  }
+
+  .slider-section__text {
+    font-size: 1em;
+  }
+
+  /* Description Section */
+
+  .descr-section,
+  .descr-section__title-block,
+  .descr-blocks__item {
+    margin-bottom: 1.6rem;
+  }
+
+  .title-block__heading {
+    font-size: 1.4em;
+  }
+
+  .descr-blocks {
+    flex-direction: column;
+  }
+
+  .descr-block {
+    padding: 2.4em;
+    width: 100%;
+  }
+
+  /* Form Section */
+
+  .contact-section {
+    margin-bottom: 4rem;
+  }
+
+  .contact-section__title-block {
+    margin-bottom: 1.6rem;
+  }
+}

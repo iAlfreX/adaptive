@@ -1,0 +1,81 @@
+@media screen and (max-width: 590px) {
+  /* Active Burger-menu */
+
+  .header {
+    display: block;
+  }
+
+  .header .header-wrapper {
+    height: 332px;
+    padding: 1.5em 0 2.2em;
+    position: relative;
+  }
+
+  .header .header-wrapper__logo-wrapper {
+    left: 0;
+    top: 1.5rem;
+    margin: 0;
+  }
+
+  .header .header-wrapper__nav {
+    left: 0;
+    margin-left: 0;
+  }
+
+  .header .nav__list {
+    min-height: 168px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header .nav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 2.4rem;
+  }
+
+  .header .nav__link {
+    font-size: 1em;
+  }
+
+  .header .header-wrapper__burger-menu {
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+  }
+
+  .header + .slider-section {
+    padding-top: 0;
+  }
+
+  /* Form */
+
+  .form {
+    height: 234px;
+  }
+
+  .textarea {
+    padding: 1em;
+    height: 150px;
+  }
+
+  .form__textarea {
+    margin-bottom: 0.95rem;
+  }
+
+  .form__textarea::placeholder {
+    line-height: inherit;
+    text-align: center;
+  }
+
+  .form__btn {
+    position: static;
+    margin: 0;
+  }
+
+  .btn {
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0.8rem 0;
+    font-size: 1.2em;
+  }
+}

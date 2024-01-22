@@ -1,0 +1,93 @@
+@media screen and (max-width: 390px) {
+  .container {
+    max-width: 375px;
+  }
+
+  /* Header Section */
+
+  .header-section {
+    display: none;
+  }
+
+  .header {
+    display: block;
+  }
+
+  /* Slider Section */
+
+  .slider-section {
+    margin-bottom: 1.1rem;
+  }
+
+  .slider-section .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .slider-wrapper {
+    margin-bottom: 2.1rem;
+    position: relative;
+  }
+
+  .slider {
+    height: 187px;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .slider-wrapper__burger-menu {
+    position: absolute;
+    right: 0.95rem;
+    top: 0.95rem;
+  }
+
+  .burger-menu__line,
+  .burger-menu::after,
+  .burger-menu::before {
+    background-color: #fff;
+  }
+
+  .slider-section__text {
+    font-size: 0.9em;
+  }
+
+  .slider-section__text {
+    padding: 0 20px;
+  }
+
+  /* Descr Section */
+
+  .descr-section {
+    margin-bottom: 1.3rem;
+  }
+
+  .descr-section__title-block {
+    margin-bottom: 1.2rem;
+  }
+
+  .title-block__heading {
+    font-size: 1em;
+  }
+
+  .descr-block {
+    padding: 1em;
+  }
+
+  .descr-block__text {
+    font-size: 0.8em;
+  }
+
+  .descr-block__date {
+    font-size: 1.2em;
+    display: block;
+  }
+
+  /* Form Section */
+
+  .contact-section {
+    margin-bottom: 5.1rem;
+  }
+}
